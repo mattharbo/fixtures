@@ -85,11 +85,12 @@
   }
 
   .fixture-teams > p:nth-child(2){
-    margin-top:10px;
+    margin-top:7px;
   }
 
   .fixture-status{
     width: 80px;
+    font-size: 20px;
   }
 
   .fixture-status > p{
@@ -100,10 +101,6 @@
     font-weight: 600;
     color: #03E9B1;
     margin:0;
-  }
-
-  .fixture-status > p:nth-child(2){
-    margin-top:10px;
   }
 
   .fixture-status-timing{
