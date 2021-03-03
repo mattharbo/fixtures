@@ -65,21 +65,17 @@
   }
 
   .fixture{
-    /* background-color: yellow; */
-
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding:0 30px 0 40px;
+    padding:0 20px 0 35px;
     margin-top: 30px;
   }
 
   .fixture-teams{
-    /* background-color: red; */
-
     flex-grow: 1;
   }
 
@@ -93,8 +89,6 @@
   }
 
   .fixture-status{
-    /* background-color: purple; */
-
     width: 80px;
   }
 
@@ -120,7 +114,6 @@
   .fixture-status-timing > p{
     margin: 0;
     font-size: 12px;
-    font-weight: 500;   /*this is not working!!!*/
   }
 
   .fixture-status-timing > p:nth-child(1){
