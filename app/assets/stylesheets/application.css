@@ -91,6 +91,8 @@
   .fixture-status{
     width: 80px;
     font-size: 20px;
+    color: #8C8C8C;
+    font-weight: 600;
   }
 
   .fixture-status > p{
@@ -99,24 +101,32 @@
 
   .fixture-status > p{
     font-weight: 600;
-    color: #03E9B1;
     margin:0;
+    color:black;
   }
 
-  .fixture-status-timing{
+  .fixture-status-timer{
     text-align: center;
-    color: #8C8C8C;
   }
 
-  .fixture-status-timing > p{
+  .fixture-status-timer mark{
+    background-color: #6FFFDC;
+  }
+
+  .fixture-status-timer > p{
     margin: 0;
     font-size: 12px;
   }
 
-  .fixture-status-timing > p:nth-child(1){
+  .fixture-status-timer > p:nth-child(1){
     font-size: 23px;
     margin-bottom: 2px;
   }
 
+  .fixture-status-timing > p{
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+  }
 
 }
